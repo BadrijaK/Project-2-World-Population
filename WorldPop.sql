@@ -1,15 +1,23 @@
+DROP TABLE worldpopulations;
+DROP TABLE countrypopulations;
+
 CREATE TABLE worldpopulations (
-	Country VARCHAR(50) NOT NULL,
-	Region VARCHAR (50) NOT NULL,
+	Country VARCHAR NOT NULL PRIMARY KEY,
+	Region VARCHAR NOT NULL,
 	Population BIGINT NOT NULL,
-	Percentage DECIMAL NOT NULL,
-	Date DATE NOT NULL
+	Percentage VARCHAR NOT NULL,
+	Date VARCHAR NOT NULL
 );
 
 CREATE TABLE countrypopulations (
-	Country VARCHAR(50) NOT NULL,
-	Land_Area INT NOT NULL,
+	Country VARCHAR NOT NULL PRIMARY KEY,
+	Land_Area FLOAT NOT NULL,
 	Density FLOAT NOT NULL
 );
 
+Select * from worldpopulations;
+Select * from countrypopulations;
+
+SELECT * FROM worldpopulations
+JOIN countrypopulations on countrypopulations.country = worldpopulations.country;
 
