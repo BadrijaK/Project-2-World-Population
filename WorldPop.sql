@@ -18,6 +18,12 @@ CREATE TABLE countrypopulations (
 Select * from worldpopulations;
 Select * from countrypopulations;
 
-SELECT * FROM worldpopulations
-JOIN countrypopulations on countrypopulations.country = worldpopulations.country;
 
+CREATE VIEW merged AS
+SELECT w.country, w.region, w.population, w.percentage, w.date, c.land_area, c.density 
+FROM worldpopulations as W
+JOIN countrypopulations AS c
+on c.country = w.country;
+
+drop VIEW merged;
+Select * from merged;
