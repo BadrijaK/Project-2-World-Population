@@ -1,5 +1,6 @@
 DROP TABLE worldpopulations;
 DROP TABLE countrypopulations;
+drop VIEW merged;
 
 CREATE TABLE worldpopulations (
 	Country VARCHAR NOT NULL PRIMARY KEY,
@@ -25,5 +26,5 @@ FROM worldpopulations as W
 JOIN countrypopulations AS c
 on c.country = w.country;
 
-drop VIEW merged;
+
 Select * from merged;
