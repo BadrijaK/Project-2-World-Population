@@ -21,8 +21,19 @@ Relational – SQL
 
 ## Research Questions
 
-* One
-* Two
+* Which are the most densely populated countries in the world?
+* Which are the densest regions in the world?
 * Three
 
 ## Findings
+
+* The 5 most densely populated countries in the world are listed in the table below:
+
+|Country|Density|
+| --- | --- |
+| Monaco | 19083.37 |
+| Singapore | 7953.00 |
+| Bahrain | 2012.10 |
+| Maldives | 1718.99 |
+| Malta | 1514.47 |
+
