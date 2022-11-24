@@ -1,6 +1,7 @@
+drop VIEW merged;
 DROP TABLE worldpopulations;
 DROP TABLE countrypopulations;
-drop VIEW merged;
+
 
 CREATE TABLE worldpopulations (
 	Country VARCHAR NOT NULL PRIMARY KEY,
