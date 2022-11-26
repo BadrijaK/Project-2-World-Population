@@ -27,4 +27,4 @@ Relational – SQL
 
 ## Findings
 
-Please refer to our [technical report](https://github.com/BadrijaK/Project-2-World-Population/blob/main/readme.odt "report") for more information on our questions and findings.
+Please refer to our [technical report](https://github.com/BadrijaK/Project-2-World-Population/blob/main/Propject%20report.odt "report") for more information on our questions and findings.
