@@ -28,3 +28,11 @@ Relational – SQL
 ## Findings
 
 Please refer to our [technical report](https://github.com/BadrijaK/Project-2-World-Population/blob/main/Propject%20report.odt "report") for more information on our questions and findings.
+
+## Task split
+
+* Rahmi - Chosing data sets, assisting with data cleaning and loading, research questions, creating README.
+* Kazimierz - Cleaning data sets, SQL - creation of Database and tables, loading data onto database, research questions.
+* Badrija - Assisting with data cleaning and loading, writing technical report, creating GITHUB repository.
+* Jacob - Assisting with data cleaning, research questions, writing summary of findings in report.
+* Samanthi - Assisting with data cleaning and loading, assisting with writing technical report.
